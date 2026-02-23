@@ -26,7 +26,7 @@ export default function Home() {
                     </div>
                     <div className="hero-image-wrapper">
                         {/* The generated image will go here */}
-                        <img src="/hero-lesley-restaurant.jpg" alt="Lesley at a restaurant" className="hero-image" />
+                        <img src="/hero-lesley.jpg" alt="Lesley, founder of Well With Bell" className="hero-image" />
                     </div>
                 </div>
             </section>
