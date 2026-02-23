@@ -69,7 +69,7 @@ export default function MenopauseWeightLoss() {
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Products I Recommend</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#E2D9CD', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-powder.png" alt="Clean Whey Protein Isolate" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Clean Whey Protein Isolate</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
@@ -81,7 +81,7 @@ export default function MenopauseWeightLoss() {
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#D3DCD0', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-gym.png" alt="Adjustable Dumbbell Set" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Adjustable Dumbbell Set</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>

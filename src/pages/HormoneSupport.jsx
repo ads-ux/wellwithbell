@@ -68,7 +68,7 @@ export default function HormoneSupport() {
                         <p className="text-center" style={{ color: 'var(--text-light)', marginBottom: '3rem' }}>*Always consult your healthcare provider before starting new supplements.</p>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#EBDDCB', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-supplements.png" alt="High-Quality Omega-3 Fish Oil" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>High-Quality Omega-3 Fish Oil</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
@@ -79,7 +79,7 @@ export default function HormoneSupport() {
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#DEE4DF', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-supplements.png" alt="Magnesium Glycinate" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Magnesium Glycinate</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>

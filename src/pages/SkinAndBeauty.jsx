@@ -72,7 +72,7 @@ export default function SkinAndBeauty() {
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Beauty From Within Recommendations</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#EBDDCB', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-powder.png" alt="Hydrolyzed Collagen Peptides" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Hydrolyzed Collagen Peptides</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
@@ -83,7 +83,7 @@ export default function SkinAndBeauty() {
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#E2D9CD', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-supplements.png" alt="Hydrating Facial Serum" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Hydrating Facial Serum with Hyaluronic Acid</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>

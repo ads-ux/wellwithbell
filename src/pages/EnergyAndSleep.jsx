@@ -77,7 +77,7 @@ export default function EnergyAndSleep() {
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Sleep & Calm Support</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#E2D9CD', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-supplements.png" alt="Magnesium L-Threonate" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Magnesium L-Threonate</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
@@ -89,7 +89,7 @@ export default function EnergyAndSleep() {
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <div style={{ width: '150px', height: '150px', backgroundColor: '#D4D9D5', borderRadius: '8px', flexShrink: 0 }}></div>
+                            <img src="/prod-cherry.png" alt="Tart Cherry Extract" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Tart Cherry Extract</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>

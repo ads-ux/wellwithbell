@@ -8,14 +8,14 @@ export default function Blog() {
     const categories = ['All', 'Menopause Weight Loss', 'Hormone Balance', 'Energy', 'Sleep', 'Collagen', 'Supplements'];
 
     const posts = [
-        { title: 'Best Protein Powder for Women Over 40', category: 'Supplements', color: '#DDE2DA' },
-        { title: 'Does Collagen Help After Menopause?', category: 'Collagen', color: '#EAE3DA' },
-        { title: 'How to Lose Belly Fat After 45', category: 'Menopause Weight Loss', color: '#ECE9E1' },
-        { title: 'Top Supplements for Hormone Balance', category: 'Hormone Balance', color: '#D4D9D5' },
-        { title: 'Why You Wake Up at 3 AM Every Night', category: 'Sleep', color: '#E2D9CD' },
-        { title: 'The Connection Between Cortisol and Belly Fat', category: 'Hormone Balance', color: '#EBDDCB' },
-        { title: 'How to Fight Midlife Fatigue', category: 'Energy', color: '#D3DCD0' },
-        { title: 'Do You Need a Magnesium Supplement?', category: 'Supplements', color: '#DEE4DF' },
+        { title: 'Best Protein Powder for Women Over 40', category: 'Supplements', image: '/prod-powder.png' },
+        { title: 'Does Collagen Help After Menopause?', category: 'Collagen', image: '/prod-powder.png' },
+        { title: 'How to Lose Belly Fat After 45', category: 'Menopause Weight Loss', image: '/prod-gym.png' },
+        { title: 'Top Supplements for Hormone Balance', category: 'Hormone Balance', image: '/prod-supplements.png' },
+        { title: 'Why You Wake Up at 3 AM Every Night', category: 'Sleep', image: '/prod-cherry.png' },
+        { title: 'The Connection Between Cortisol and Belly Fat', category: 'Hormone Balance', image: '/prod-supplements.png' },
+        { title: 'How to Fight Midlife Fatigue', category: 'Energy', image: '/prod-supplements.png' },
+        { title: 'Do You Need a Magnesium Supplement?', category: 'Supplements', image: '/prod-supplements.png' },
     ];
 
     const filteredPosts = filter === 'All' ? posts : posts.filter(p => p.category === filter);
@@ -60,7 +60,7 @@ export default function Blog() {
                     <div className="articles-grid">
                         {filteredPosts.map((post, index) => (
                             <article key={index} className="article-card">
-                                <div className="article-image-placeholder" style={{ backgroundColor: post.color }}></div>
+                                <img src={post.image} alt={post.title} className="article-image-placeholder" style={{ objectFit: 'cover' }} />
                                 <div className="article-content">
                                     <span className="article-category">{post.category}</span>
                                     <h3>{post.title}</h3>
