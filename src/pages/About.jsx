@@ -15,11 +15,16 @@ export default function About() {
             <section className="section">
                 <div className="container" style={{ maxWidth: '800px' }}>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem' }}>
-                        <div style={{ width: '100%', maxWidth: '500px', margin: '0 auto', display: 'block' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem', marginBottom: '1rem' }}>
                             <img
-                                src="/portrait_lesley.png"
-                                alt="Lesley smiling in a kitchen"
-                                style={{ borderRadius: '12px', width: '100%', boxShadow: '0 15px 35px rgba(0,0,0,0.06)' }}
+                                src="/lesley-2.jpg"
+                                alt="Lesley in a garden setting"
+                                style={{ borderRadius: '12px', width: '100%', aspectRatio: '1/1', objectFit: 'cover', boxShadow: '0 10px 25px rgba(0,0,0,0.06)' }}
+                            />
+                            <img
+                                src="/lesley-5.jpg"
+                                alt="Lesley enjoying the outdoors"
+                                style={{ borderRadius: '12px', width: '100%', aspectRatio: '1/1', objectFit: 'cover', boxShadow: '0 10px 25px rgba(0,0,0,0.06)' }}
                             />
                         </div>
 
@@ -31,6 +36,15 @@ export default function About() {
                             <p>
                                 When I brought these concerns up at my annual checkup, I was told, "Well, you're just getting older."
                             </p>
+
+                            <div style={{ float: 'right', width: '280px', margin: '1rem 0 1rem 2rem' }}>
+                                <img
+                                    src="/lesley-1.jpg"
+                                    alt="Lesley at an event"
+                                    style={{ borderRadius: '12px', width: '100%', boxShadow: '0 10px 25px rgba(0,0,0,0.06)' }}
+                                />
+                            </div>
+
                             <p>
                                 I refused to accept that feeling exhausted and uncomfortable in my own skin was just my new normal. I started diving into the research around perimenopause, female hormones, and longevity.
                             </p>
@@ -39,6 +53,20 @@ export default function About() {
                             <p>
                                 I learned that my declining estrogen and fluctuating progesterone required a completely different approach to wellness. Instead of doing hours of cardio and slashing calories (which was only raising my cortisol and destroying my muscle mass), I started lifting weights, prioritizing protein, and supporting my gut health and nervous system.
                             </p>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', margin: '3rem 0' }}>
+                                <img
+                                    src="/lesley-4.jpg"
+                                    alt="Lesley skiing"
+                                    style={{ borderRadius: '12px', width: '100%', boxShadow: '0 10px 25px rgba(0,0,0,0.06)' }}
+                                />
+                                <img
+                                    src="/lesley-3.jpg"
+                                    alt="Lesley at a formal event"
+                                    style={{ borderRadius: '12px', width: '100%', boxShadow: '0 10px 25px rgba(0,0,0,0.06)' }}
+                                />
+                            </div>
+
                             <p>
                                 Within a few months, my energy returned, I slept through the night, the stubborn midsection weight began to shift, and I felt strong and resilient again.
                             </p>

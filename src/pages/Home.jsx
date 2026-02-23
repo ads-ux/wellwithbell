@@ -64,7 +64,7 @@ export default function Home() {
             <section className="about-preview-section">
                 <div className="container about-container">
                     <div className="about-image-wrapper">
-                        <img src="/portrait_lesley.png" alt="Lesley, founder of Well With Bell" className="about-image" />
+                        <img src="/lesley-2.jpg" alt="Lesley, founder of Well With Bell" className="about-image" />
                     </div>
                     <div className="about-content">
                         <h2>Hi, I'm Lesley.</h2>
