@@ -221,27 +221,14 @@
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
-.pillar-color-block {
-    height: 120px;
+.pillar-image {
+    height: 180px;
+    width: 100%;
     border-radius: 8px;
     margin-bottom: var(--space-md);
+    object-fit: cover;
 }
 
-.pillar-color-block.hormone {
-    background-color: #E2D9CD;
-}
-
-.pillar-color-block.weight {
-    background-color: #D3DCD0;
-}
-
-.pillar-color-block.energy {
-    background-color: #EBDDCB;
-}
-
-.pillar-color-block.skin {
-    background-color: #DEE4DF;
-}
 
 .pillar-card h3 {
     font-size: 1.25rem;
@@ -285,25 +272,10 @@
     transform: translateY(-5px);
 }
 
-.article-image-placeholder {
+.article-image {
     height: 200px;
     width: 100%;
-}
-
-.article-image-placeholder.color-1 {
-    background-color: #DDE2DA;
-}
-
-.article-image-placeholder.color-2 {
-    background-color: #EAE3DA;
-}
-
-.article-image-placeholder.color-3 {
-    background-color: #ECE9E1;
-}
-
-.article-image-placeholder.color-4 {
-    background-color: #D4D9D5;
+    object-fit: cover;
 }
 
 .article-content {

@@ -94,28 +94,28 @@ export default function Home() {
 
                     <div className="pillars-grid">
                         <div className="pillar-card">
-                            <div className="pillar-color-block hormone"></div>
+                            <img src="/pillar-hormone.png" alt="Hormone Support" className="pillar-image" />
                             <h3>Hormone & Metabolism Support</h3>
                             <p>Understand the shifts in your body and discover natural ways to restore balance and harmony.</p>
                             <Link to="/hormone-support" className="btn btn-secondary btn-sm">Learn More</Link>
                         </div>
 
                         <div className="pillar-card">
-                            <div className="pillar-color-block weight"></div>
+                            <img src="/pillar-weight.png" alt="Weight Loss" className="pillar-image" />
                             <h3>Sustainable Weight Loss After 40</h3>
                             <p>Learn why weight gain happens now, and how to build strong, lean muscle without starvation diets.</p>
                             <Link to="/menopause-weight-loss" className="btn btn-secondary btn-sm">Learn More</Link>
                         </div>
 
                         <div className="pillar-card">
-                            <div className="pillar-color-block energy"></div>
+                            <img src="/pillar-energy.png" alt="Energy & Sleep" className="pillar-image" />
                             <h3>Energy & Sleep Optimization</h3>
                             <p>Combat fatigue, manage cortisol, and improve your sleep hygiene for better restorative rest.</p>
                             <Link to="/energy-sleep" className="btn btn-secondary btn-sm">Learn More</Link>
                         </div>
 
                         <div className="pillar-card">
-                            <div className="pillar-color-block skin"></div>
+                            <img src="/pillar-skin.png" alt="Skin & Hair" className="pillar-image" />
                             <h3>Skin, Hair & Collagen Health</h3>
                             <p>Support your body's changing needs from the inside out with hydration and key nutrients.</p>
                             <Link to="/skin-beauty" className="btn btn-secondary btn-sm">Learn More</Link>
@@ -134,7 +134,7 @@ export default function Home() {
 
                     <div className="articles-grid">
                         <article className="article-card">
-                            <div className="article-image-placeholder color-1"></div>
+                            <img src="/guide-nutrition.png" alt="Nutrition Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Nutrition</span>
                                 <h3>Best Protein Powder for Women Over 40</h3>
@@ -143,7 +143,7 @@ export default function Home() {
                         </article>
 
                         <article className="article-card">
-                            <div className="article-image-placeholder color-2"></div>
+                            <img src="/guide-beauty.png" alt="Beauty Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Beauty</span>
                                 <h3>Does Collagen Help After Menopause?</h3>
@@ -152,7 +152,7 @@ export default function Home() {
                         </article>
 
                         <article className="article-card">
-                            <div className="article-image-placeholder color-3"></div>
+                            <img src="/guide-weight.png" alt="Weight Loss Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Weight Loss</span>
                                 <h3>How to Lose Belly Fat After 45</h3>
@@ -161,7 +161,7 @@ export default function Home() {
                         </article>
 
                         <article className="article-card">
-                            <div className="article-image-placeholder color-4"></div>
+                            <img src="/guide-hormones.png" alt="Hormone Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Hormones</span>
                                 <h3>Top Supplements for Hormone Balance</h3>
