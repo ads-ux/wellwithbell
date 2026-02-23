@@ -183,10 +183,9 @@ export default function Home() {
                     <p>
                         A simple step-by-step guide to support metabolism, energy, sleep, and hormone balance. Get it delivered straight to your inbox.
                     </p>
-                    <form className="optin-form-inline">
-                        <input type="email" placeholder="Enter your email address" required />
-                        <button type="submit" className="btn">Get the Free Guide</button>
-                    </form>
+                    <div className="get-response-wrapper">
+                        <getresponse-form form-id="ce7c238d-10a6-4613-bef5-265b4b8299cc" e="1"></getresponse-form>
+                    </div>
                 </div>
             </section>
         </div>
