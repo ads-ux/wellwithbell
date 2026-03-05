@@ -6,10 +6,10 @@ export default function MenopauseWeightLoss() {
         <div className="page-container">
             <header className="page-header">
                 <div className="container">
-                    <h1 className="page-title">Sustainable Weight Loss After 40</h1>
+                    <h1 className="page-title">Unlock Metabolic Vitality</h1>
                     <p className="page-subtitle">
-                        Understand why your body is changing and discover supportive, non-restrictive
-                        ways to build strength, support your metabolism, and feel confident again.
+                        Shift from "eating less" to "nourishing more." Learn how to build lean muscle,
+                        optimize your protein, and work *with* your hormones to feel strong and resilient.
                     </p>
                 </div>
             </header>
@@ -68,26 +68,36 @@ export default function MenopauseWeightLoss() {
                     <div className="recommendations">
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Recommendations</h2>
 
-                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
                             <img src="/prod-30day-reset.png" alt="30-Day Reset" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>The Foundation</span>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>The Metabolic Foundation</span>
                                 <h3>The 30-Day Reset</h3>
-                                <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    A sustainable system designed to help you lose weight, fight cravings, increase lean muscle mass, and improve overall nutrition through a guided, science-backed approach.
+                                <p style={{ fontSize: '1rem', color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
+                                    My secret to breaking through plateaus. This science-backed, guided system help you
+                                    re-balance your nutrition, fight stubborn cravings, and jumpstart your
+                                    metabolism by focusing on quality and timing.
                                 </p>
-                                <a href="https://www.isagenix.com/share/4LDTA4D" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
+                                <div style={{ borderLeft: '3px solid var(--accent-sage)', paddingLeft: '1rem', marginBottom: '1.5rem' }}>
+                                    <p style={{ fontSize: '0.9rem', fontStyle: 'italic', margin: 0 }}>
+                                        "This was the catalyst for my own transformation. It takes the guesswork out of healthy eating and provides instant momentum." — Lesley
+                                    </p>
+                                </div>
+                                <a href="https://www.isagenix.com/share/4LDTA4D" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block' }}>Start Your Reset</a>
                             </div>
                         </div>
 
-                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
                             <img src="/prod-isalean-protein.png" alt="IsaLean® Performance Protein" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>My Post-Workout Pick</span>
                                 <h3>IsaLean® Performance Protein</h3>
-                                <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    A high-protein shake designed for building strength and endurance. With 36 grams of high-quality protein, it’s specifically formulated to help you build and maintain lean muscle.
+                                <p style={{ fontSize: '1rem', color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
+                                    Protect your muscle mass. With 36 grams of high-quality protein, this shake is
+                                    designed to help you build and maintain the lean muscle that is crucial for
+                                    metabolic health as we aging.
                                 </p>
-                                <a href="https://www.isagenix.com/share/4LDSK7E" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
+                                <a href="https://www.isagenix.com/share/4LDSK7E" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block' }}>Build Your Strength</a>
                             </div>
                         </div>
                     </div>
