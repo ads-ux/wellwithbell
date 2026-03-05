@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { CheckCircle2, Sparkles, Heart, Info, ArrowRight } from 'lucide-react';
+import { CheckCircle2, Sparkles, Heart, Info, ArrowRight, ArrowLeft } from 'lucide-react';
 import SEO from '../components/SEO';
 
 export default function SkinAndBeauty() {
