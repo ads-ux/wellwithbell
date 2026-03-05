@@ -1,9 +1,42 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Moon, Sun, Zap, Info } from 'lucide-react';
+import SEO from '../components/SEO';
 
 export default function EnergyAndSleep() {
     return (
         <div className="page-container">
+            <SEO
+                title="Wired and Tired? Reclaim Deep Sleep After 40"
+                description="Stop the 3 AM wake-up cycle. Learn how to balance cortisol and support your nervous system for deep, restorative sleep in perimenopause."
+                canonical="/energy-sleep"
+                schemaData={{
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Why do I wake up at 3 AM every night?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Waking up at 3 AM is often due to a cortisol spike triggered by a drop in blood sugar or declining progesterone levels during the menopause transition."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How can I improve my energy during perimenopause?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Boosting energy involves supporting mitochondrial health, maintaining stable blood sugar throughout the day, and ensuring quality REM sleep."
+                            }
+                        }
+                    ]
+                }}
+            />
+            <img
+                src="/prod-30day-reset.png"
+                alt="Lesley's Sleep and Energy Reset Bundle featuring Isagenix Renewal Spray"
+                className="product-image"
+            />
             <header className="page-header">
                 <div className="container">
                     <h1 className="page-title">Wake Up Refreshed</h1>
@@ -28,6 +61,18 @@ export default function EnergyAndSleep() {
                             and our thyroid hormones often become sluggish. Add to this the mental load of caring for aging
                             parents, growing children, and peak career demands, and it's a perfect storm for burnout.
                         </p>
+                    </div>
+
+                    <div className="info-card bg-sage-light" style={{ marginBottom: '3rem', padding: '2.5rem', borderRadius: '16px', background: 'rgba(163, 178, 161, 0.1)' }}>
+                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.25rem', marginBottom: '1.25rem' }}>
+                            <Info size={24} color="var(--accent-sage-dark)" />
+                            Why do I wake up at 3 AM?
+                        </h3>
+                        <ul style={{ margin: 0, paddingLeft: '1.5rem', lineHeight: '1.8', fontSize: '1.05rem' }}>
+                            <li><strong>Cortisol Spikes:</strong> Low blood sugar at night triggers a stress response.</li>
+                            <li><strong>Progesterone Decline:</strong> The loss of this "calming" hormone disrupts deep sleep.</li>
+                            <li><strong>Nervous System Hyper-arousal:</strong> Chronic stress keeps the body in a shallow sleep state.</li>
+                        </ul>
                     </div>
 
                     <div className="content-block bg-beige" style={{ padding: '2rem', borderRadius: '12px', marginBottom: '3rem' }}>

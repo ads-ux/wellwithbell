@@ -1,9 +1,37 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Info, Sparkles, ArrowLeft } from 'lucide-react';
+import SEO from '../components/SEO';
 
 export default function HormoneSupport() {
     return (
         <div className="page-container">
+            <SEO
+                title="Hormone & Metabolism Support for Midlife"
+                description="Reclaim your hormonal balance during perimenopause and menopause. Natural, evidence-based strategies for better moods, metabolism, and vitality."
+                canonical="/hormone-support"
+                schemaData={{
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "How do hormones shift during perimenopause?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "During perimenopause, progesterone levels often drop while estrogen becomes more unpredictable. This can lead to symptoms like anxiety, irregular cycles, and metabolic changes."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "What is the best way to support metabolism over 40?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Focusing on hormone-balancing nutrients, adequate protein intake, and resistance training are key to maintaining a healthy metabolism after 40."
+                            }
+                        }
+                    ]
+                }}
+            />
             <header className="page-header">
                 <div className="container">
                     <h1 className="page-title">Reclaim Your Vitality</h1>
@@ -23,14 +51,27 @@ export default function HormoneSupport() {
                             that impacts every system in your body. If you've felt a sudden disconnect between
                             your efforts and your results, you're not alone.
                         </p>
-                        <ul style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', listStyle: 'none', padding: 0, marginTop: '1.5rem' }}>
-                            <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Unpredictable, irregular cycles</span></li>
-                            <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Disruptive hot flashes & night sweats</span></li>
-                            <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Waking up at 3 AM wired and tired</span></li>
-                            <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Foggy thinking and sudden mood shifts</span></li>
-                            <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Stubborn weight gain around the middle</span></li>
-                            <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>A persistent "running on empty" feeling</span></li>
-                        </ul>
+
+                        <div className="info-card bg-beige" style={{ margin: '2rem 0', padding: '2rem', borderRadius: '12px' }}>
+                            <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.25rem', marginBottom: '1rem' }}>
+                                <Info size={24} color="var(--accent-sage-dark)" />
+                                Quick Definition: Hormonal Synergy
+                            </h3>
+                            <p style={{ margin: 0, lineHeight: '1.7', fontSize: '1.05rem' }}>
+                                <strong>Hormonal Synergy</strong> in midlife occurs when nutrition, movement, and targeted supplementation work together to stabilize estrogen and progesterone fluctuations. This reduces systemic inflammation and supports a healthy metabolism.
+                            </p>
+                        </div>
+
+                        <div className="content-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginTop: '2rem' }}>
+                            <ul style={{ listStyle: 'none', padding: 0 }}>
+                                <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Unpredictable, irregular cycles</span></li>
+                                <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Disruptive hot flashes & night sweats</span></li>
+                                <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Waking up at 3 AM wired and tired</span></li>
+                                <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Foggy thinking and sudden mood shifts</span></li>
+                                <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.75rem' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>Stubborn weight gain around the middle</span></li>
+                                <li style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}><CheckCircle2 size={20} color="var(--accent-sage)" /> <span style={{ fontSize: '0.95rem' }}>A persistent "running on empty" feeling</span></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div className="content-block bg-beige" style={{ padding: '2rem', borderRadius: '12px', marginBottom: '3rem' }}>
@@ -64,7 +105,7 @@ export default function HormoneSupport() {
                         <p className="text-center" style={{ color: 'var(--text-light)', marginBottom: '3rem' }}>*Always consult your healthcare provider before starting new supplements.</p>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-harmonia.png" alt="Harmonia™ Menopause Support" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/prod-harmonia.png" alt="Harmonia Menopause Support supplement for hormone balance and symptom relief" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Lesley's Daily Essential</span>
                                 <h3>Harmonia™ Menopause Support</h3>
@@ -106,7 +147,7 @@ export default function HormoneSupport() {
                     </div>
 
                     <div style={{ marginTop: '4rem', textAlign: 'center' }}>
-                        <Link to="/" className="btn btn-secondary" style={{ display: 'inline-flex', gap: '0.5rem' }}>
+                        <Link to="/" className="back-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-sage-dark)', textDecoration: 'none', fontWeight: '500' }}>
                             <ArrowLeft size={18} /> Back to Home
                         </Link>
                     </div>

@@ -1,4 +1,5 @@
 import { CheckCircle2 } from 'lucide-react';
+import SEO from '../components/SEO';
 
 export default function Resources() {
     const authorityResources = [
@@ -65,6 +66,11 @@ export default function Resources() {
 
     return (
         <div className="page-container">
+            <SEO
+                title="Wellness Toolkit | Authoritative Resources for Women 40+"
+                description="A curated collection of the best tools, experts, and products for navigating perimenopause and menopause with confidence."
+                canonical="/resources"
+            />
             <header className="page-header" style={{ paddingBottom: '2rem' }}>
                 <div className="container">
                     <h1 className="page-title">My Recommended Products for Women 40+</h1>

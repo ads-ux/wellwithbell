@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Calendar, Tag } from 'lucide-react';
+import { ArrowLeft, Tag, Calendar } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
+import SEO from '../components/SEO';
 
 export default function BlogPost() {
     const { slug } = useParams();
@@ -20,6 +21,25 @@ export default function BlogPost() {
 
     return (
         <div className="page-container">
+            <SEO
+                title={post.title}
+                description={post.excerpt}
+                canonical={`/blog/${post.slug}`}
+                type="article"
+                schemaData={{
+                    "@context": "https://schema.org",
+                    "@type": "BlogPosting",
+                    "headline": post.title,
+                    "description": post.excerpt,
+                    "author": {
+                        "@type": "Person",
+                        "name": "Lesley Bell"
+                    },
+                    "datePublished": post.date,
+                    "image": `https://wellwithbell.com${post.image}`
+                }}
+            />
+
             <header className="page-header bg-beige" style={{ padding: '4rem 0' }}>
                 <div className="container" style={{ maxWidth: '800px' }}>
                     <Link to="/blog" className="back-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-sage-dark)', marginBottom: '2rem', textDecoration: 'none', fontWeight: '500' }}>

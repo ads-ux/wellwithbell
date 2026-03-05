@@ -1,10 +1,26 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Star, Shield, Zap, Sparkles } from 'lucide-react';
+import SEO from '../components/SEO';
 import './Home.css';
 
 export default function Home() {
     return (
-        <div className="home-page">
+        <div className="home-container">
+            <SEO
+                title="Empowering Women 40+ through Perimenopause & Menopause"
+                description="Navigate perimenopause and menopause with confidence. Holistic wellness, nutrition, and fitness guidance curated for women over 40."
+                schemaData={{
+                    "@context": "https://schema.org",
+                    "@type": "Person",
+                    "name": "Lesley Bell",
+                    "url": "https://wellwithbell.com/about",
+                    "jobTitle": "Wellness Guide & Menopause Advocate",
+                    "description": "Helping women over 40 reclaim their vitality through holistic wellness and evidence-based nutrition.",
+                    "sameAs": [
+                        "https://wellwithbell.com"
+                    ]
+                }}
+            />
             {/* Hero Section */}
             <section className="hero-section">
                 <div className="container hero-container">

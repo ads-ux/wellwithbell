@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import './index.css';
 import App from './App.jsx';
 
@@ -19,21 +20,23 @@ import Layout from './components/Layout.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="menopause-weight-loss" element={<MenopauseWeightLoss />} />
-          <Route path="hormone-support" element={<HormoneSupport />} />
-          <Route path="energy-sleep" element={<EnergyAndSleep />} />
-          <Route path="skin-beauty" element={<SkinAndBeauty />} />
-          <Route path="resources" element={<Resources />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="blog/:slug" element={<BlogPost />} />
-          <Route path="contact" element={<Contact />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="menopause-weight-loss" element={<MenopauseWeightLoss />} />
+            <Route path="hormone-support" element={<HormoneSupport />} />
+            <Route path="energy-sleep" element={<EnergyAndSleep />} />
+            <Route path="skin-beauty" element={<SkinAndBeauty />} />
+            <Route path="resources" element={<Resources />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="blog/:slug" element={<BlogPost />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </HelmetProvider>
   </StrictMode>,
 );

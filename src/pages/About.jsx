@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom';
+import { ArrowLeft, Award, Heart, Shield, Users } from 'lucide-react';
+import SEO from '../components/SEO';
 
 export default function About() {
     return (
         <div className="page-container">
+            <SEO
+                title="Meet Lesley | My Journey & Mission"
+                description="Learn more about Lesley Bell and the mission behind Well With Bell. Empowering women in midlife to thrive through hormonal changes."
+                canonical="/about"
+            />
             <header className="page-header bg-beige">
                 <div className="container">
                     <h1 className="page-title">About Well With Bell</h1>

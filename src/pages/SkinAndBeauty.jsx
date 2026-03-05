@@ -1,9 +1,37 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, Sparkles, Heart, Info, ArrowRight } from 'lucide-react';
+import SEO from '../components/SEO';
 
 export default function SkinAndBeauty() {
     return (
         <div className="page-container">
+            <SEO
+                title="Radiant Skin & Beauty After 40 | From Within"
+                description="Stop the decline and start the glow. Discover the power of marine collagen and nutrient-dense strategies for radiant skin and hair during menopause."
+                canonical="/skin-beauty"
+                schemaData={{
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Does collagen really help after 40?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes, collagen production declines significantly during perimenopause and menopause. Supplementing with high-quality marine collagen can support skin elasticity and reduce the appearance of fine lines."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "How do I maintain glowing skin during menopause?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Maintaining a glow involves internal hydration, high-quality amino acids for collagen support, and protecting your skin's moisture barrier from the inside out."
+                            }
+                        }
+                    ]
+                }}
+            />
             <header className="page-header">
                 <div className="container">
                     <h1 className="page-title">Glow from Within</h1>
@@ -26,6 +54,16 @@ export default function SkinAndBeauty() {
                             However, in the first five years of menopause, women lose a staggering <strong>30% of their skin's collagen</strong>.
                             This rapid decline, triggered by dropping estrogen levels, is why you might suddenly notice
                             increased skin thinning, loss of elasticity, and more prominent wrinkles.
+                        </p>
+                    </div>
+
+                    <div className="info-card bg-beige" style={{ margin: '2rem 0', padding: '2.5rem', borderRadius: '16px' }}>
+                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.25rem', marginBottom: '1.25rem' }}>
+                            <Info size={24} color="var(--accent-sage-dark)" />
+                            Quick Definition: Cellular Radiance
+                        </h3>
+                        <p style={{ margin: 0, lineHeight: '1.8', fontSize: '1.05rem' }}>
+                            <strong>Cellular Radiance</strong> is the byproduct of efficient skin cell turnover and robust collagen synthesis. As estrogen levels decline in midlife, the skin's ability to retain moisture and structural integrity decreases. Bioavailable marine collagen and antioxidant-rich "beauty from within" strategies are essential for maintaining this vibrant, healthy glow.
                         </p>
                     </div>
 
@@ -72,7 +110,12 @@ export default function SkinAndBeauty() {
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Beauty From Within Recommendation</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-collagen-elixir.png" alt="Collagen Elixir™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img
+                                src="/prod-collagen-elixir.png"
+                                alt="Marine Collagen Elixir supplement for midlife skin elasticity and hydration"
+                                className="product-image"
+                                style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }}
+                            />
                             <div>
                                 <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>My Daily Glow Essential</span>
                                 <h3>Collagen Elixir™</h3>

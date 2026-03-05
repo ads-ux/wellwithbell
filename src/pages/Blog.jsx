@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { blogPosts } from '../data/blogPosts';
+import SEO from '../components/SEO';
 
 export default function Blog() {
     const [filter, setFilter] = useState('All');
@@ -13,7 +14,12 @@ export default function Blog() {
     const filteredPosts = filter === 'All' ? posts : posts.filter(p => p.category === filter);
 
     return (
-        <div className="page-container">
+        <div className="page-container bg-beige">
+            <SEO
+                title="The Wellness Blog | Science-Backed Midlife Guidance"
+                description="Expert articles on protein, sleep, weight loss, and hormone health for women navigatng perimenopause and beyond."
+                canonical="/blog"
+            />
             <header className="page-header bg-beige">
                 <div className="container">
                     <h1 className="page-title">Wellness Articles & Guides</h1>

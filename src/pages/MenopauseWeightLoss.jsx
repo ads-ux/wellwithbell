@@ -1,9 +1,37 @@
 import { Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Zap, Target, Shield, Info, ArrowRight } from 'lucide-react';
+import SEO from '../components/SEO';
 
 export default function MenopauseWeightLoss() {
     return (
         <div className="page-container">
+            <SEO
+                title="Unlock Metabolic Vitality & Sustainable Strength After 45"
+                description="Old weight loss rules don't work in midlife. Learn how to work with your hormones to burn fat and build strength during menopause."
+                canonical="/menopause-weight-loss"
+                schemaData={{
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Why is it harder to lose weight after 40?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Hormonal shifts, particularly the drop in estrogen, can lead to insulin resistance and a shift in fat distribution toward the midsection."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Is resistance training necessary during menopause?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Resistance training is the most effective tool for building metabolic currency, protecting bone density, and maintaining lean muscle mass as we age."
+                            }
+                        }
+                    ]
+                }}
+            />
             <header className="page-header">
                 <div className="container">
                     <h1 className="page-title">Unlock Metabolic Vitality</h1>
@@ -31,7 +59,17 @@ export default function MenopauseWeightLoss() {
                         </p>
                     </div>
 
-                    <div className="content-block bg-beige" style={{ padding: '2rem', borderRadius: '12px', marginBottom: '3rem' }}>
+                    <div className="info-card bg-beige" style={{ margin: '2rem 0', padding: '2.5rem', borderRadius: '16px' }}>
+                        <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.25rem', marginBottom: '1.25rem' }}>
+                            <Info size={24} color="var(--accent-sage-dark)" />
+                            Quick Definition: Metabolic Currency
+                        </h3>
+                        <p style={{ margin: 0, lineHeight: '1.8', fontSize: '1.05rem' }}>
+                            <strong>Metabolic Currency</strong> is a term for lean muscle mass—the most metabolically active tissue in your body. In midlife, protecting and building this "currency" through high protein intake and resistance training is the most effective way to counteract the hormonal shifts that lead to insulin resistance and weight gain.
+                        </p>
+                    </div>
+
+                    <div className="content-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
                         <h3 style={{ marginBottom: '1rem' }}>The Solution Isn't Eating Less</h3>
                         <p>
                             The most common mistake women make is drastically cutting calories or increasing high-intensity cardio.
