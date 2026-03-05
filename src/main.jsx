@@ -13,6 +13,7 @@ import EnergyAndSleep from './pages/EnergyAndSleep.jsx';
 import SkinAndBeauty from './pages/SkinAndBeauty.jsx';
 import Resources from './pages/Resources.jsx';
 import Blog from './pages/Blog.jsx';
+import BlogPost from './pages/BlogPost.jsx';
 import Contact from './pages/Contact.jsx';
 import Layout from './components/Layout.jsx';
 
@@ -29,6 +30,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="skin-beauty" element={<SkinAndBeauty />} />
           <Route path="resources" element={<Resources />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="blog/:slug" element={<BlogPost />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

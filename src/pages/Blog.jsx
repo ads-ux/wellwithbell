@@ -1,22 +1,14 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import { blogPosts } from '../data/blogPosts';
 
 export default function Blog() {
     const [filter, setFilter] = useState('All');
 
     const categories = ['All', 'Menopause Weight Loss', 'Hormone Balance', 'Energy', 'Sleep', 'Collagen', 'Supplements'];
 
-    const posts = [
-        { title: 'Best Protein Powder for Women Over 40', category: 'Supplements', image: '/prod-powder.png' },
-        { title: 'Does Collagen Help After Menopause?', category: 'Collagen', image: '/prod-powder.png' },
-        { title: 'How to Lose Belly Fat After 45', category: 'Menopause Weight Loss', image: '/prod-gym.png' },
-        { title: 'Top Supplements for Hormone Balance', category: 'Hormone Balance', image: '/prod-supplements.png' },
-        { title: 'Why You Wake Up at 3 AM Every Night', category: 'Sleep', image: '/prod-cherry.png' },
-        { title: 'The Connection Between Cortisol and Belly Fat', category: 'Hormone Balance', image: '/prod-supplements.png' },
-        { title: 'How to Fight Midlife Fatigue', category: 'Energy', image: '/prod-supplements.png' },
-        { title: 'Do You Need a Magnesium Supplement?', category: 'Supplements', image: '/prod-supplements.png' },
-    ];
+    const posts = blogPosts;
 
     const filteredPosts = filter === 'All' ? posts : posts.filter(p => p.category === filter);
 
@@ -64,7 +56,10 @@ export default function Blog() {
                                 <div className="article-content">
                                     <span className="article-category">{post.category}</span>
                                     <h3>{post.title}</h3>
-                                    <Link to="#" className="read-more">Read Article <ArrowRight size={16} /></Link>
+                                    <p style={{ fontSize: '0.9rem', color: 'var(--text-light)', marginBottom: '1.25rem', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                                        {post.excerpt}
+                                    </p>
+                                    <Link to={`/blog/${post.slug}`} className="read-more">Read Article <ArrowRight size={16} /></Link>
                                 </div>
                             </article>
                         ))}
