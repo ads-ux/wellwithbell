@@ -72,7 +72,7 @@ export default function SkinAndBeauty() {
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Beauty From Within Recommendation</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/pillar-skin.png" alt="Collagen Elixir™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/prod-collagen-elixir.png" alt="Collagen Elixir™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Daily Essential</span>
                                 <h3>Collagen Elixir™</h3>
@@ -84,7 +84,7 @@ export default function SkinAndBeauty() {
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/pillar-skin.png" alt="Hair Revival" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/prod-hair-revival.png" alt="Hair Revival" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>Hair Revival</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>

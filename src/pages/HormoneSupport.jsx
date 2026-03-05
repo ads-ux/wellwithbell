@@ -68,7 +68,7 @@ export default function HormoneSupport() {
                         <p className="text-center" style={{ color: 'var(--text-light)', marginBottom: '3rem' }}>*Always consult your healthcare provider before starting new supplements.</p>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/pillar-hormone.png" alt="Harmonia™ Menopause Support" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/prod-harmonia.png" alt="Harmonia™ Menopause Support" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Featured Recommendation</span>
                                 <h3>Harmonia™ Menopause Support</h3>

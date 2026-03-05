@@ -69,7 +69,7 @@ export default function MenopauseWeightLoss() {
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Recommendations</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/pillar-weight.png" alt="30-Day Reset" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/prod-30day-reset.png" alt="30-Day Reset" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>The Foundation</span>
                                 <h3>The 30-Day Reset</h3>
@@ -81,7 +81,7 @@ export default function MenopauseWeightLoss() {
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/pillar-weight.png" alt="IsaLean® Performance Protein" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/prod-isalean-protein.png" alt="IsaLean® Performance Protein" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <h3>IsaLean® Performance Protein</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
