@@ -6,10 +6,10 @@ export default function EnergyAndSleep() {
         <div className="page-container">
             <header className="page-header">
                 <div className="container">
-                    <h1 className="page-title">Energy & Sleep Optimization</h1>
+                    <h1 className="page-title">Wake Up Refreshed</h1>
                     <p className="page-subtitle">
-                        Combating midlife fatigue requires more than just caffeine. Learn how to soothe
-                        your nervous system, manage cortisol, and finally get a good night's sleep.
+                        Move beyond "wired and tired." Learn how to soothe your nervous system,
+                        balance your cortisol, and reclaim the deep, restorative sleep your body craves.
                     </p>
                 </div>
             </header>
@@ -76,15 +76,22 @@ export default function EnergyAndSleep() {
                     <div className="recommendations">
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Recommendations</h2>
 
-                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
                             <img src="/prod-cherry.png" alt="Renewal Sleep Support™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Bedtime Ritual</span>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>My Bedtime Essential</span>
                                 <h3>Renewal Sleep Support™</h3>
-                                <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    A fast-acting oral spray with melatonin and botanicals to help realign your natural sleep cycle and improve sleep quality without the grogginess of traditional sleep aids.
+                                <p style={{ fontSize: '1rem', color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
+                                    Finally quiet the 3 AM mind. This fast-acting oral spray uses gentle melatonin and calming
+                                    botanicals to help you drift off naturally and stay asleep through the night, so you can
+                                    wake up without that heavy, groggy feeling.
                                 </p>
-                                <a href="https://www.isagenix.com/share/4LDSJ1R" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
+                                <div style={{ borderLeft: '3px solid var(--accent-sage)', paddingLeft: '1rem', marginBottom: '1.5rem' }}>
+                                    <p style={{ fontSize: '0.9rem', fontStyle: 'italic', margin: 0 }}>
+                                        "This changed the game for those mid-night wake-ups. It's clean, effective, and works within minutes." — Lesley
+                                    </p>
+                                </div>
+                                <a href="https://www.isagenix.com/share/4LDSJ1R" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block' }}>Discover Restful Sleep</a>
                             </div>
                         </div>
 
