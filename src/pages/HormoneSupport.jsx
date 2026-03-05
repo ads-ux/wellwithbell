@@ -64,8 +64,20 @@ export default function HormoneSupport() {
                     <hr style={{ border: 0, borderTop: '1px solid var(--border-color)', margin: '4rem 0' }} />
 
                     <div className="recommendations">
-                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Nutrients</h2>
+                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Recommendations</h2>
                         <p className="text-center" style={{ color: 'var(--text-light)', marginBottom: '3rem' }}>*Always consult your healthcare provider before starting new supplements.</p>
+
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
+                            <img src="/pillar-hormone.png" alt="Harmonia™ Menopause Support" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <div>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Featured Recommendation</span>
+                                <h3>Harmonia™ Menopause Support</h3>
+                                <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
+                                    A hormone-free, multi-symptom solution designed specifically for menopause relief. It helps reduce hot flashes and night sweats while supporting restful sleep and emotional balance.
+                                </p>
+                                <a href="https://www.isagenix.com/share/4LDSBNY" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
+                            </div>
+                        </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
                             <img src="/prod-supplements.png" alt="High-Quality Omega-3 Fish Oil" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
@@ -74,7 +86,7 @@ export default function HormoneSupport() {
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
                                     Essential for reducing inflammation, supporting brain health (clearing up brain fog), and cardiovascular health. I look for high EPA/DHA ratios.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>Coming Soon</button>
                             </div>
                         </div>
 
@@ -85,7 +97,7 @@ export default function HormoneSupport() {
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
                                     The relaxation mineral. It supports over 300 enzymatic processes in the body, helps regulate cortisol, and is crucial for deep, restorative sleep.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>Coming Soon</button>
                             </div>
                         </div>
                     </div>

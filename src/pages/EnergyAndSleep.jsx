@@ -74,29 +74,28 @@ export default function EnergyAndSleep() {
                     <hr style={{ border: 0, borderTop: '1px solid var(--border-color)', margin: '4rem 0' }} />
 
                     <div className="recommendations">
-                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Sleep & Calm Support</h2>
+                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Recommendations</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-supplements.png" alt="Magnesium L-Threonate" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/pillar-energy.png" alt="Renewal Sleep Support™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>Magnesium L-Threonate</h3>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Bedtime Ritual</span>
+                                <h3>Renewal Sleep Support™</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    Unlike other forms, this type of magnesium easily crosses the blood-brain barrier.
-                                    It's fantastic for calming an overactive mind before bed and supporting cognitive function.
+                                    A fast-acting oral spray with melatonin and botanicals to help realign your natural sleep cycle and improve sleep quality without the grogginess of traditional sleep aids.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <a href="https://www.isagenix.com/share/4LDSJ1R" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
                             </div>
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-cherry.png" alt="Tart Cherry Extract" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/pillar-energy.png" alt="E+™ Energy Shot" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>Tart Cherry Extract</h3>
+                                <h3>E+™ Energy Shot</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    Tart cherries naturally contain melatonin and have strong anti-inflammatory properties,
-                                    making them a great natural sleep aid instead of heavy over-the-counter sleep medications.
+                                    A plant-based energy shot with naturally sourced caffeine and adaptogens. Perfect for a clean boost in focus and mental alertness without the jittery crash.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <a href="https://www.isagenix.com/share/4LDTA4E" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
                             </div>
                         </div>
                     </div>

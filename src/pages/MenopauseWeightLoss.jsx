@@ -66,28 +66,28 @@ export default function MenopauseWeightLoss() {
                     <hr style={{ border: 0, borderTop: '1px solid var(--border-color)', margin: '4rem 0' }} />
 
                     <div className="recommendations">
-                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Products I Recommend</h2>
+                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Recommendations</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-powder.png" alt="Clean Whey Protein Isolate" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/pillar-weight.png" alt="30-Day Reset" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>Clean Whey Protein Isolate</h3>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>The Foundation</span>
+                                <h3>The 30-Day Reset</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    A high-quality protein powder is the easiest way to hit your daily protein goals.
-                                    This brand uses clean ingredients, no artificial sweeteners, and mixes smoothly.
+                                    A sustainable system designed to help you lose weight, fight cravings, increase lean muscle mass, and improve overall nutrition through a guided, science-backed approach.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <a href="https://www.isagenix.com/share/4LDTA4D" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
                             </div>
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-gym.png" alt="Adjustable Dumbbell Set" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/pillar-weight.png" alt="IsaLean® Performance Protein" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>Adjustable Dumbbell Set</h3>
+                                <h3>IsaLean® Performance Protein</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    Perfect for home workouts. These space-saving dumbbells allow you to gradually increase weight as you get stronger, which is the key to progressive overload and building muscle.
+                                    A high-protein shake designed for building strength and endurance. With 36 grams of high-quality protein, it’s specifically formulated to help you build and maintain lean muscle.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <a href="https://www.isagenix.com/share/4LDSK7E" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
                             </div>
                         </div>
                     </div>

@@ -69,27 +69,28 @@ export default function SkinAndBeauty() {
                     <hr style={{ border: 0, borderTop: '1px solid var(--border-color)', margin: '4rem 0' }} />
 
                     <div className="recommendations">
-                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Beauty From Within Recommendations</h2>
+                        <h2 className="text-center" style={{ marginBottom: '2rem' }}>Beauty From Within Recommendation</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-powder.png" alt="Hydrolyzed Collagen Peptides" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/pillar-skin.png" alt="Collagen Elixir™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>Hydrolyzed Collagen Peptides</h3>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Daily Essential</span>
+                                <h3>Collagen Elixir™</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    A flavorless, easily dissolving powder that delivers the specific amino acids your body needs to rebuild its own collagen. Look for types I and III for skin and hair.
+                                    A premium beauty supplement that illuminates skin, strengthens hair and nails, and visibly reduces the appearance of fine lines and wrinkles. It delivers a potent dose of marine collagen peptides.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <a href="https://www.isagenix.com/share/WMFB4" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
                             </div>
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-supplements.png" alt="Hydrating Facial Serum" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/pillar-skin.png" alt="Hair Revival" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>Hydrating Facial Serum with Hyaluronic Acid</h3>
+                                <h3>Hair Revival</h3>
                                 <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    While I focus on internal nutrition, topical hyaluronic acid draws water into the skin's surface, providing an immediate plumping effect for fine lines.
+                                    A natural, clean, and vegan supplement designed to stimulate hair growth and support visibly thicker, stronger hair by nourishing the scalp and follicles from within.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>View Product</button>
+                                <a href="https://www.isagenix.com/share/YRCE78" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
                             </div>
                         </div>
                     </div>
