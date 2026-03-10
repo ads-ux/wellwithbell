@@ -32,11 +32,6 @@ export default function EnergyAndSleep() {
                     ]
                 }}
             />
-            <img
-                src="/real-sleep.jpg"
-                alt="Lesley's Sleep and Energy Reset Bundle featuring Isagenix Renewal Spray"
-                className="product-image"
-            />
             <header className="page-header">
                 <div className="container">
                     <h1 className="page-title">Wake Up Refreshed</h1>

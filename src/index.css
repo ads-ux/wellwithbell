@@ -15,7 +15,7 @@
   /* Typography */
   --font-serif: 'Playfair Display', serif;
   --font-sans: 'Inter', sans-serif;
-  
+
   /* Spacing */
   --space-xs: 0.5rem;
   --space-sm: 1rem;
@@ -23,7 +23,7 @@
   --space-lg: 3rem;
   --space-xl: 5rem;
   --space-xxl: 8rem;
-  
+
   /* Layout */
   --container-width: 1100px;
 }
@@ -42,7 +42,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-serif);
   color: var(--text-dark-slate);
   line-height: 1.2;
@@ -225,7 +230,8 @@ img {
   max-width: 350px;
 }
 
-.footer-links h4, .footer-optin h4 {
+.footer-links h4,
+.footer-optin h4 {
   font-family: var(--font-sans);
   font-size: 1.1rem;
   font-weight: 600;
@@ -284,6 +290,25 @@ img {
   margin-right: auto;
 }
 
+/* Image Constraints */
+.product-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 auto var(--space-md);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  object-fit: contain;
+  background-color: var(--white);
+}
+
+.article-image-placeholder {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
 /* Page Headers */
 .page-header {
   padding: var(--space-xl) 0 var(--space-lg);
@@ -314,7 +339,8 @@ img {
   font-weight: 500;
 }
 
-.form-input, .form-textarea {
+.form-input,
+.form-textarea {
   width: 100%;
   padding: 0.875rem;
   border: 1px solid var(--border-color);
@@ -336,7 +362,7 @@ img {
   text-align: center;
 }
 
-.email-optin-section h2, 
+.email-optin-section h2,
 .email-optin-section p {
   color: var(--white);
 }
@@ -389,13 +415,13 @@ img {
     flex-direction: column;
     padding: var(--space-md);
     border-bottom: 1px solid var(--border-color);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   }
-  
+
   .nav-menu.open {
     display: flex;
   }
-  
+
   .mobile-menu-btn {
     display: block;
   }
@@ -404,11 +430,11 @@ img {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }
-  
+
   .page-title {
     font-size: 2.25rem;
   }
-  
+
   .section {
     padding: var(--space-lg) 0;
   }
@@ -418,7 +444,7 @@ img {
   .optin-form-inline {
     flex-direction: column;
   }
-  
+
   .optin-form-inline button {
     width: 100%;
   }
