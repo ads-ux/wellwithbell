@@ -123,25 +123,39 @@ export default function HormoneSupport() {
                             </div>
                         </div>
 
-                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-supplements.png" alt="High-Quality Omega-3 Fish Oil" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
+                            <img src="/prod-supplements.png" alt="Triotic™ Probiotics" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>High-Quality Omega-3 Fish Oil</h3>
-                                <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    Essential for reducing inflammation, supporting brain health (clearing up brain fog), and cardiovascular health. I look for high EPA/DHA ratios.
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>For Gut & Hormone Harmony</span>
+                                <h3>Triotic™ Probiotics</h3>
+                                <p style={{ fontSize: '1rem', color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
+                                    A healthy gut is essential for clearing excess hormones. Triotic™ features a specialized blend of three clinically studied probiotic strains to support gentle digestion, enhance immune function, and nurture the microbiome that regulates your estrogen.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>Coming Soon</button>
+                                <a href="https://www.isagenix.com/share/4LDS7KQ" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block' }}>Support Your Gut</a>
                             </div>
                         </div>
 
-                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-supplements.png" alt="Magnesium Glycinate" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
+                            <img src="/guide-hormones.png" alt="IsaFlush® Magnesium & Digestion" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
-                                <h3>Magnesium Glycinate</h3>
-                                <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    The relaxation mineral. It supports over 300 enzymatic processes in the body, helps regulate cortisol, and is crucial for deep, restorative sleep.
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>The Relaxation Mineral</span>
+                                <h3>IsaFlush®</h3>
+                                <p style={{ fontSize: '1rem', color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
+                                    Magnesium is the unsung hero of midlife. IsaFlush combines soothing magnesium with gentle cleansing herbs to support digestive regularity, calm the nervous system, and help regulate cortisol—without harsh laxatives.
                                 </p>
-                                <button className="btn btn-secondary btn-sm" style={{ marginTop: '1rem' }}>Coming Soon</button>
+                                <a href="https://www.isagenix.com/share/G296ND" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block' }}>Calm Your System</a>
+                            </div>
+                        </div>
+
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
+                            <img src="/prod-powder.png" alt="Happy Mix Pack" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <div>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>For Mood & Stress Resilience</span>
+                                <h3>Happy Mix Pack</h3>
+                                <p style={{ fontSize: '1rem', color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
+                                    A daily dose of joy. This targeted blend of adaptogens and nootropics helps calm the mind, elevate mood, and improve stress resilience—crucial support when hormonal fluctuations leave you feeling overwhelmed or foggy.
+                                </p>
+                                <a href="https://www.isagenix.com/share/4LDS7KP" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block' }}>Elevate Your Mood</a>
                             </div>
                         </div>
                     </div>

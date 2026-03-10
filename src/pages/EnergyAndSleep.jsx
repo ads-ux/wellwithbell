@@ -140,14 +140,17 @@ export default function EnergyAndSleep() {
                             </div>
                         </div>
 
-                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/pillar-energy.png" alt="E+™ Energy Shot" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                        <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
+                            <img src="/prod-powder.png" alt="E+™ Energy Shot" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
+                                <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>For a Clean Midday Lift</span>
                                 <h3>E+™ Energy Shot</h3>
-                                <p style={{ fontSize: '0.95rem', color: 'var(--text-light)' }}>
-                                    A plant-based energy shot with naturally sourced caffeine and adaptogens. Perfect for a clean boost in focus and mental alertness without the jittery crash.
+                                <p style={{ fontSize: '1rem', color: 'var(--text-main)', marginBottom: '1rem', lineHeight: '1.6' }}>
+                                    Beat the afternoon slump without the cortisol spike. This plant-based energy shot uses
+                                    naturally sourced caffeine from green tea and yerba mate, paired with powerful adaptogens
+                                    to provide sustained mental clarity and physical energy. No jitters, no crash.
                                 </p>
-                                <a href="https://www.isagenix.com/share/4LDTA4E" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-sm" style={{ marginTop: '1rem', display: 'inline-block' }}>View Product</a>
+                                <a href="https://www.isagenix.com/share/4LDTA4E" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ display: 'inline-block' }}>Boost Your Energy naturally</a>
                             </div>
                         </div>
                     </div>

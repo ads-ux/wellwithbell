@@ -47,19 +47,31 @@ export default function Resources() {
 
     const curatedProducts = [
         {
-            title: "Hormone & Menopause Relief",
-            description: "Targeted support for hot flashes, night sweats, and internal balance.",
+            title: "Hormone, Gut & Sleep Support",
+            description: "Targeted support for internal balance, digestion, and restorative rest.",
             items: [
                 { name: "Harmonia™", desc: "My daily essential for multi-symptom menopause relief.", link: "https://www.isagenix.com/share/4LDSBNY" },
-                { name: "Renewal Sleep Support™", desc: "Fast-acting oral spray to quiet the 3 AM mind.", link: "https://www.isagenix.com/share/4LDSJ1R" }
+                { name: "Renewal Sleep Support™", desc: "Fast-acting oral spray to quiet the 3 AM mind.", link: "https://www.isagenix.com/share/4LDSJ1R" },
+                { name: "Triotic™ Probiotics", desc: "Three clinically studied strains to clear estrogen and support digestion.", link: "https://www.isagenix.com/share/4LDS7KQ" },
+                { name: "IsaFlush®", desc: "Gentle magnesium to regulate cortisol and promote digestive regularity.", link: "https://www.isagenix.com/share/G296ND" }
             ]
         },
         {
             title: "Metabolic & Beauty Support",
             description: "Build lean muscle and support your glow from the inside out.",
             items: [
-                { name: "IsaLean® Performance Protein", desc: "36g of bioavailable protein to protect muscle mass.", link: "https://www.isagenix.com/share/4LDSK7E" },
-                { name: "Collagen Elixir™", desc: "Premium marine collagen for skin, hair, and nails.", link: "https://www.isagenix.com/share/WMFB4" }
+                { name: "The 30-Day Reset", desc: "My secret to breaking through midlife weight loss plateaus.", link: "https://www.isagenix.com/share/4LDTA4D" },
+                { name: "IsaLean® Performance Protein", desc: "36g of bioavailable protein to protect metabolic currency.", link: "https://www.isagenix.com/share/4LDSK7E" },
+                { name: "Collagen Elixir™", desc: "Premium marine collagen for skin hydration and elasticity.", link: "https://www.isagenix.com/share/WMFB4" },
+                { name: "Hair Revival", desc: "Targeted nutrients for visibly thicker, stronger hair.", link: "https://www.isagenix.com/share/YRCE78" }
+            ]
+        },
+        {
+            title: "Energy & Stress Resilience",
+            description: "Clean energy and adaptogens to calm the nervous system.",
+            items: [
+                { name: "Happy Mix Pack", desc: "Adaptogens and nootropics to elevate mood and build stress resilience.", link: "https://www.isagenix.com/share/4LDS7KP" },
+                { name: "E+™ Energy Shot", desc: "Plant-based energy from green tea to beat the afternoon slump without the crash.", link: "https://www.isagenix.com/share/4LDTA4E" }
             ]
         }
     ];
