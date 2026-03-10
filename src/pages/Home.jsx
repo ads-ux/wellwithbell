@@ -150,7 +150,7 @@ export default function Home() {
 
                     <div className="articles-grid">
                         <article className="article-card">
-                            <img src="/guide-nutrition.png" alt="Nutrition Guide" className="article-image" />
+                            <img src="/guide-protein.jpg" alt="Nutrition Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Nutrition</span>
                                 <h3>Best Protein Powder for Women Over 40</h3>
@@ -159,7 +159,7 @@ export default function Home() {
                         </article>
 
                         <article className="article-card">
-                            <img src="/guide-beauty.png" alt="Beauty Guide" className="article-image" />
+                            <img src="/guide-collagen.jpg" alt="Beauty Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Beauty</span>
                                 <h3>Does Collagen Help After Menopause?</h3>
@@ -168,7 +168,7 @@ export default function Home() {
                         </article>
 
                         <article className="article-card">
-                            <img src="/guide-weight.png" alt="Weight Loss Guide" className="article-image" />
+                            <img src="/guide-bellyfat.jpg" alt="Weight Loss Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Weight Loss</span>
                                 <h3>How to Lose Belly Fat After 45</h3>
@@ -177,7 +177,7 @@ export default function Home() {
                         </article>
 
                         <article className="article-card">
-                            <img src="/guide-hormones.png" alt="Hormone Guide" className="article-image" />
+                            <img src="/guide-hormone-supps.jpg" alt="Hormone Guide" className="article-image" />
                             <div className="article-content">
                                 <span className="article-category">Hormones</span>
                                 <h3>Top Supplements for Hormone Balance</h3>
