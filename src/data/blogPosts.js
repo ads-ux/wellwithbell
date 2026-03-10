@@ -89,5 +89,36 @@ export const blogPosts = [
                 <a href="https://www.isagenix.com/share/4LDTA4D" target="_blank" class="btn btn-secondary" style="display: inline-block;">Learn About the 30-Day Reset</a>
             </div>
         `
+    },
+    {
+        slug: 'does-collagen-help-after-menopause',
+        title: 'Does Collagen Help After Menopause?',
+        category: 'Beauty',
+        date: 'March 8, 2024',
+        image: '/guide-collagen.jpg',
+        excerpt: 'As estrogen drops, so does our skin\'s natural scaffolding. Learn why marine collagen is essentially non-negotiable for radiant skin after 40.',
+        content: `
+            <p>If you've noticed that your skin feels suddenly thinner, drier, or less "bouncy" in your 40s and 50s, it's not simply the passage of time. It's biological math.</p>
+            
+            <h3>The Estrogen-Collagen Cliff</h3>
+            <p>Collagen is the structural protein that gives our skin its firmness and elasticity. Here is the harsh reality: in the first five years of menopause, women lose up to <strong>30% of their skin's collagen</strong>. This rapid decline is directly tied to plummeting estrogen levels.</p>
+            
+            <h3>Not All Collagen is Created Equal</h3>
+            <p>Many women rush out to buy a cheap tub of bovine powder from the grocery store, only to see zero results. To actually see a difference in your skin texture, elasticity, and hydration, two things matter:</p>
+            <ul>
+                <li><strong>Type I Marine Collagen:</strong> This is the closest match to human skin collagen. It is absorbed up to 1.5 times more efficiently than bovine or porcine sources.</li>
+                <li><strong>Bioavailability (Liquid over Powder):</strong> Your body needs to absorb the peptides. Liquid elixirs have a dramatically higher absorption rate than powders that your digestive system has to break down first.</li>
+                <li><strong>Protection from Oxidation:</strong> Collagen degrades when exposed to air. Single-serving glass bottles protect the active ingredients and prevent oxidation.</li>
+            </ul>
+
+            <h3>The Inside-Out Glow</h3>
+            <p>I am notoriously picky about supplements, but <strong>Collagen Elixir™</strong> is the one product I will not go a day without. Not only does it deliver 5g of highly bioavailable marine collagen peptides, but it's fortified with Vitamin C and Zinc—the essential co-factors your body needs to actually <em>build</em> the collagen matrix.</p>
+            <p>Within weeks, women typically notice a restored "glow," improved skin hydration, and visibly thicker hair.</p>
+
+            <div style="margin: 2rem 0; padding: 2rem; background: var(--bg-beige); border-radius: 12px; text-align: center;">
+                <h4 style="margin-bottom: 1rem;">Ready to restore your radiance?</h4>
+                <a href="https://www.isagenix.com/en-CA/shop/natural-beauty/collagen-elixir?pid=e760ff5befe14902bf4b61d23ce15d3d&sharecode=WMFB4" target="_blank" class="btn btn-secondary" style="display: inline-block;">Experience the Collagen Elixir™</a>
+            </div>
+        `
     }
 ];

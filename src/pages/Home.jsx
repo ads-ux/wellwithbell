@@ -154,7 +154,7 @@ export default function Home() {
                             <div className="article-content">
                                 <span className="article-category">Nutrition</span>
                                 <h3>Best Protein Powder for Women Over 40</h3>
-                                <Link to="/blog" className="read-more">Read Article <ArrowRight size={16} /></Link>
+                                <Link to="/blog/best-protein-powder-women-over-40" className="read-more">Read Article <ArrowRight size={16} /></Link>
                             </div>
                         </article>
 
@@ -163,7 +163,7 @@ export default function Home() {
                             <div className="article-content">
                                 <span className="article-category">Beauty</span>
                                 <h3>Does Collagen Help After Menopause?</h3>
-                                <Link to="/blog" className="read-more">Read Article <ArrowRight size={16} /></Link>
+                                <Link to="/blog/does-collagen-help-after-menopause" className="read-more">Read Article <ArrowRight size={16} /></Link>
                             </div>
                         </article>
 
@@ -172,7 +172,7 @@ export default function Home() {
                             <div className="article-content">
                                 <span className="article-category">Weight Loss</span>
                                 <h3>How to Lose Belly Fat After 45</h3>
-                                <Link to="/blog" className="read-more">Read Article <ArrowRight size={16} /></Link>
+                                <Link to="/blog/how-to-lose-belly-fat-after-45" className="read-more">Read Article <ArrowRight size={16} /></Link>
                             </div>
                         </article>
 
@@ -181,7 +181,7 @@ export default function Home() {
                             <div className="article-content">
                                 <span className="article-category">Hormones</span>
                                 <h3>Top Supplements for Hormone Balance</h3>
-                                <Link to="/blog" className="read-more">Read Article <ArrowRight size={16} /></Link>
+                                <Link to="/hormone-support" className="read-more">Read Article <ArrowRight size={16} /></Link>
                             </div>
                         </article>
                     </div>
