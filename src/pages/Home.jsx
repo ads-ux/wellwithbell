@@ -110,28 +110,28 @@ export default function Home() {
 
                     <div className="pillars-grid">
                         <div className="pillar-card">
-                            <img src="/pillar-hormone.png" alt="Hormone Support" className="pillar-image" />
+                            <img src="/new-pillar-hormones.jpg" alt="Hormone Support" className="pillar-image" />
                             <h3>Hormone & Metabolism Support</h3>
                             <p>Understand the shifts in your body and discover natural ways to restore balance and harmony.</p>
                             <Link to="/hormone-support" className="btn btn-secondary btn-sm">Learn More</Link>
                         </div>
 
                         <div className="pillar-card">
-                            <img src="/pillar-weight.png" alt="Weight Loss" className="pillar-image" />
+                            <img src="/new-pillar-weightloss.jpg" alt="Weight Loss" className="pillar-image" />
                             <h3>Sustainable Weight Loss After 40</h3>
                             <p>Learn why weight gain happens now, and how to build strong, lean muscle without starvation diets.</p>
                             <Link to="/menopause-weight-loss" className="btn btn-secondary btn-sm">Learn More</Link>
                         </div>
 
                         <div className="pillar-card">
-                            <img src="/pillar-energy.png" alt="Energy & Sleep" className="pillar-image" />
+                            <img src="/new-pillar-sleep.jpg" alt="Energy & Sleep" className="pillar-image" />
                             <h3>Energy & Sleep Optimization</h3>
                             <p>Combat fatigue, manage cortisol, and improve your sleep hygiene for better restorative rest.</p>
                             <Link to="/energy-sleep" className="btn btn-secondary btn-sm">Learn More</Link>
                         </div>
 
                         <div className="pillar-card">
-                            <img src="/pillar-skin.png" alt="Skin & Hair" className="pillar-image" />
+                            <img src="/new-pillar-beauty.jpg" alt="Skin & Hair" className="pillar-image" />
                             <h3>Skin, Hair & Collagen Health</h3>
                             <p>Support your body's changing needs from the inside out with hydration and key nutrients.</p>
                             <Link to="/skin-beauty" className="btn btn-secondary btn-sm">Learn More</Link>
