@@ -120,5 +120,48 @@ export const blogPosts = [
                 <a href="https://www.isagenix.com/en-CA/shop/natural-beauty/collagen-elixir?pid=e760ff5befe14902bf4b61d23ce15d3d&sharecode=WMFB4" target="_blank" class="btn btn-secondary" style="display: inline-block;">Experience the Collagen Elixir™</a>
             </div>
         `
+    },
+    {
+        slug: 'top-supplements-hormone-balance',
+        title: 'Top Supplements for Hormone Balance',
+        category: 'Hormones',
+        date: 'March 5, 2024',
+        image: '/guide-hormone-supps.jpg',
+        excerpt: 'Perimenopause doesn\'t have to mean suffering. Discover the four foundational supplements I use to clear estrogen dominance, soothe my nervous system, and restore inner calm.',
+        content: `
+            <p>If you're in your 40s or 50s and feeling anxious, bloated, or simply "off," you are likely experiencing the chaotic hormonal shifts of perimenopause. While a foundation of whole foods and strength training is non-negotiable, targeted supplementation is often the bridge between surviving and truly thriving.</p>
+            
+            <p>After navigating my own midlife health journey, I've curated a deeply vetted toolkit. Here are the four daily essentials I rely on for internal harmony.</p>
+
+            <h3>1. The Multi-Symptom Reliever: Harmonia™</h3>
+            <p>During the menopause transition, fluctuating estrogen and dropping progesterone can cause a cascade of miserable symptoms—from occasional hot flashes to crushing fatigue. <strong>Harmonia™</strong> is designed specifically for this window. It's an ultra-premium botanical blend that acts almost like a "multivitamin for your hormones," targeting the root cause of these disruptions rather than just masking them.</p>
+            <div style="margin-top: 0.5rem; margin-bottom: 2.5rem;">
+                <a href="https://www.isagenix.com/share/4LDSBNY" target="_blank" style="color: var(--accent-sage-dark); font-weight: 500;">✓ Shop Harmonia™ &rarr;</a>
+            </div>
+
+            <h3>2. The Estrogen Clearer: Triotic™ Probiotics</h3>
+            <p>Most women don't realize that your gut plays a massive role in hormone balance. There is a specific group of gut bacteria called the "estrobolome" responsible for metabolizing and clearing excess estrogen. If your gut is sluggish, that estrogen recirculates, leading to estrogen dominance (hello, heavy periods and belly fat). <strong>Triotic™</strong> provides three clinically studied probiotic strains that survive stomach acid to populate the gut and support healthy estrogen clearance.</p>
+            <div style="margin-top: 0.5rem; margin-bottom: 2.5rem;">
+                <a href="https://www.isagenix.com/share/4LDS7KQ" target="_blank" style="color: var(--accent-sage-dark); font-weight: 500;">✓ Shop Triotic™ &rarr;</a>
+            </div>
+
+            <h3>3. The Cortisol Calmer: IsaFlush®</h3>
+            <p>Magnesium is the great relaxer. It calms the central nervous system, regulates cortisol (our stress hormone), and miraculously helps pull water into the intestines to keep you "regular." A backed-up digestive system means backed-up toxins and hormones. <strong>IsaFlush®</strong> uses a gentle form of magnesium paired with soothing herbs like peppermint to promote digestive regularity without the harshness of a laxative.</p>
+            <div style="margin-top: 0.5rem; margin-bottom: 2.5rem;">
+                <a href="https://www.isagenix.com/share/G296ND" target="_blank" style="color: var(--accent-sage-dark); font-weight: 500;">✓ Shop IsaFlush® &rarr;</a>
+            </div>
+
+            <h3>4. The Mood Elevator: Happy Mix Pack</h3>
+            <p>Let's be honest: the mood swings of midlife are no joke. The <strong>Happy Mix Pack</strong> is my secret weapon for stress resilience. It's packed with potent adaptogens and nootropics—botanicals that biochemically help your body adapt to stress and elevate your neurotransmitters. When I feel that overwhelmed, "frayed edge" sensation creeping in, this brings me back to center.</p>
+            <div style="margin-top: 0.5rem; margin-bottom: 2.5rem;">
+                <a href="https://www.isagenix.com/share/4LDS7KP" target="_blank" style="color: var(--accent-sage-dark); font-weight: 500;">✓ Shop the Happy Mix Pack &rarr;</a>
+            </div>
+
+            <div style="margin: 3rem 0; padding: 2rem; background: var(--bg-beige); border-radius: 12px; text-align: center;">
+                <h4 style="margin-bottom: 1rem;">Ready to support your hormones?</h4>
+                <p style="margin-bottom: 1.5rem; color: var(--text-light); font-size: 0.95rem;">Start building your midlife toolkit today.</p>
+                <a href="/hormone-support" class="btn btn-secondary" style="display: inline-block;">Learn More About Hormone Support</a>
+            </div>
+        `
     }
 ];

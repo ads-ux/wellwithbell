@@ -181,7 +181,7 @@ export default function Home() {
                             <div className="article-content">
                                 <span className="article-category">Hormones</span>
                                 <h3>Top Supplements for Hormone Balance</h3>
-                                <Link to="/hormone-support" className="read-more">Read Article <ArrowRight size={16} /></Link>
+                                <Link to="/blog/top-supplements-hormone-balance" className="read-more">Read Article <ArrowRight size={16} /></Link>
                             </div>
                         </article>
                     </div>
