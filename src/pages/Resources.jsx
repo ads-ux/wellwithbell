@@ -50,28 +50,28 @@ export default function Resources() {
             title: "Hormone, Gut & Sleep Support",
             description: "Targeted support for internal balance, digestion, and restorative rest.",
             items: [
-                { name: "Harmonia™", desc: "My daily essential for multi-symptom menopause relief.", link: "https://www.isagenix.com/share/4LDSBNY" },
-                { name: "Renewal Sleep Support™", desc: "Fast-acting oral spray to quiet the 3 AM mind.", link: "https://www.isagenix.com/share/4LDSJ1R" },
-                { name: "Triotic™ Probiotics", desc: "Three clinically studied strains to clear estrogen and support digestion.", link: "https://www.isagenix.com/share/4LDS7KQ" },
-                { name: "IsaFlush®", desc: "Gentle magnesium to regulate cortisol and promote digestive regularity.", link: "https://www.isagenix.com/share/G296ND" }
+                { name: "Harmonia™", desc: "My daily essential for multi-symptom menopause relief.", link: "https://www.isagenix.com/share/4LDSBNY", image: "/real-harmonia.jpg" },
+                { name: "Renewal Sleep Support™", desc: "Fast-acting oral spray to quiet the 3 AM mind.", link: "https://www.isagenix.com/share/4LDSJ1R", image: "/real-sleep.jpg" },
+                { name: "Triotic™ Probiotics", desc: "Three clinically studied strains to clear estrogen and support digestion.", link: "https://www.isagenix.com/share/4LDS7KQ", image: "/real-triotic.jpeg" },
+                { name: "IsaFlush®", desc: "Gentle magnesium to regulate cortisol and promote digestive regularity.", link: "https://www.isagenix.com/share/G296ND", image: "/real-isaflush.jpg" }
             ]
         },
         {
             title: "Metabolic & Beauty Support",
             description: "Build lean muscle and support your glow from the inside out.",
             items: [
-                { name: "The 30-Day Reset", desc: "My secret to breaking through midlife weight loss plateaus.", link: "https://www.isagenix.com/share/4LDTA4D" },
-                { name: "IsaLean® Performance Protein", desc: "36g of bioavailable protein to protect metabolic currency.", link: "https://www.isagenix.com/share/4LDSK7E" },
-                { name: "Collagen Elixir™", desc: "Premium marine collagen for skin hydration and elasticity.", link: "https://www.isagenix.com/share/WMFB4" },
-                { name: "Hair Revival", desc: "Targeted nutrients for visibly thicker, stronger hair.", link: "https://www.isagenix.com/share/YRCE78" }
+                { name: "The 30-Day Reset", desc: "My secret to breaking through midlife weight loss plateaus.", link: "https://www.isagenix.com/share/4LDTA4D", image: "/real-30day.jpg" },
+                { name: "IsaLean® Performance Protein", desc: "36g of bioavailable protein to protect metabolic currency.", link: "https://www.isagenix.com/share/4LDSK7E", image: "/real-isalean.jpg" },
+                { name: "Collagen Elixir™", desc: "Premium marine collagen for skin hydration and elasticity.", link: "https://www.isagenix.com/share/WMFB4", image: "/real-collagen.jpg" },
+                { name: "Hair Revival", desc: "Targeted nutrients for visibly thicker, stronger hair.", link: "https://www.isagenix.com/share/YRCE78", image: "/real-hair.jpg" }
             ]
         },
         {
             title: "Energy & Stress Resilience",
             description: "Clean energy and adaptogens to calm the nervous system.",
             items: [
-                { name: "Happy Mix Pack", desc: "Adaptogens and nootropics to elevate mood and build stress resilience.", link: "https://www.isagenix.com/share/4LDS7KP" },
-                { name: "E+™ Energy Shot", desc: "Plant-based energy from green tea to beat the afternoon slump without the crash.", link: "https://www.isagenix.com/share/4LDTA4E" }
+                { name: "Happy Mix Pack", desc: "Adaptogens and nootropics to elevate mood and build stress resilience.", link: "https://www.isagenix.com/share/4LDS7KP", image: "/real-happy.webp" },
+                { name: "E+™ Energy Shot", desc: "Plant-based energy from green tea to beat the afternoon slump without the crash.", link: "https://www.isagenix.com/share/4LDTA4E", image: "/real-eplus.jpg" }
             ]
         }
     ];
@@ -128,8 +128,9 @@ export default function Resources() {
                                 <div style={{ background: '#fff', borderRadius: '12px', padding: '1.5rem', border: '1px solid rgba(0,0,0,0.05)' }}>
                                     {cat.items.map((item, idx) => (
                                         <div key={idx} style={{ marginBottom: idx === cat.items.length - 1 ? 0 : '1.5rem', paddingBottom: idx === cat.items.length - 1 ? 0 : '1.5rem', borderBottom: idx === cat.items.length - 1 ? 'none' : '1px solid var(--border-color)' }}>
-                                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem' }}>
-                                                <div>
+                                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '1.5rem' }}>
+                                                <img src={item.image} alt={item.name} style={{ width: '80px', height: '80px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0, border: '1px solid var(--border-color)', background: '#fff' }} />
+                                                <div style={{ flex: 1 }}>
                                                     <strong style={{ display: 'block', fontSize: '1.1rem', marginBottom: '0.25rem' }}>{item.name}</strong>
                                                     <p style={{ fontSize: '0.9rem', color: 'var(--text-light)', margin: 0 }}>{item.desc}</p>
                                                 </div>

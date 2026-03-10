@@ -4,7 +4,7 @@ export const blogPosts = [
         title: 'Best Protein Powder for Women Over 40',
         category: 'Supplements',
         date: 'March 15, 2024',
-        image: '/prod-isalean-protein.png',
+        image: '/real-isalean.jpg',
         excerpt: 'As we age, our protein needs change. Learn why quality and bioavailability matter most for maintaining lean muscle in midlife.',
         content: `
             <p>If there is one nutritional "lever" that has the biggest impact on how you feel, age, and move after 40, it is <strong>protein</strong>. Yet, most women in perimenopause and menopause are significantly under-eating this crucial macronutrient.</p>
@@ -29,11 +29,11 @@ export const blogPosts = [
         `
     },
     {
-        slug: 'why-you-wake-up-at-3-am',
+        slug: 'why-wake-up-3am-menopause',
         title: 'Why You Wake Up at 3 AM Every Night',
         category: 'Sleep',
         date: 'March 12, 2024',
-        image: '/prod-cherry.png',
+        image: '/real-sleep.jpg',
         excerpt: 'The "wired and tired" 3 AM wake-up call is a classic sign of midlife hormonal shifts. Here is the physiological reason why it happens—and how to stop it.',
         content: `
             <p>It’s a scenario almost every woman over 40 knows well: You fall asleep fine, but then—<em>ping!</em>—you are wide awake at 3:00 AM, heart racing, mind spinning with tomorrow's to-do list.</p>
@@ -63,7 +63,7 @@ export const blogPosts = [
         title: 'How to Lose Belly Fat After 45',
         category: 'Menopause Weight Loss',
         date: 'March 10, 2024',
-        image: '/prod-30day-reset.png',
+        image: '/real-30day.jpg',
         excerpt: 'The rules of weight loss change in midlife. Learn why "eating less and exercising more" might be backfiring, and what to do instead.',
         content: `
             <p>If you feel like you are doing everything "right" but the weight—particularly around your middle—isn't budging, you aren't imagining it. Your hormones have changed the locks, and your old keys don't work anymore.</p>

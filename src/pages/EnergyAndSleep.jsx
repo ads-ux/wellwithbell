@@ -33,7 +33,7 @@ export default function EnergyAndSleep() {
                 }}
             />
             <img
-                src="/prod-30day-reset.png"
+                src="/real-sleep.jpg"
                 alt="Lesley's Sleep and Energy Reset Bundle featuring Isagenix Renewal Spray"
                 className="product-image"
             />
@@ -122,7 +122,7 @@ export default function EnergyAndSleep() {
                         <h2 className="text-center" style={{ marginBottom: '2rem' }}>Supportive Recommendations</h2>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-cherry.png" alt="Renewal Sleep Support™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/real-sleep.jpg" alt="Renewal Sleep Support™" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>My Bedtime Essential</span>
                                 <h3>Renewal Sleep Support™</h3>
@@ -141,7 +141,7 @@ export default function EnergyAndSleep() {
                         </div>
 
                         <div className="product-card" style={{ display: 'flex', gap: '2rem', background: '#fff', border: '1px solid var(--border-color)', borderRadius: '12px', padding: '2.5rem', marginBottom: '2rem', alignItems: 'center' }}>
-                            <img src="/prod-powder.png" alt="E+™ Energy Shot" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
+                            <img src="/real-eplus.jpg" alt="E+™ Energy Shot" style={{ width: '150px', height: '150px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0 }} />
                             <div>
                                 <span style={{ color: 'var(--accent-terracotta)', fontWeight: 'bold', fontSize: '0.8rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>For a Clean Midday Lift</span>
                                 <h3>E+™ Energy Shot</h3>
